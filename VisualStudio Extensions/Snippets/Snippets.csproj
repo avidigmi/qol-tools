@@ -49,6 +49,7 @@
     <Compile Include="SnippetsPackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QoL\afunc.snippet" />
     <None Include="QoL\func.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
