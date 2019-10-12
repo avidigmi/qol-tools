@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>afunc</Title>
+			<Shortcut>sim</Shortcut>
+			<Description>Code snippet for new Async Function</Description>
+			<Author>Avi Digmi</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <Default>DoSomething</Default>
+        </Literal>
+        <Literal>
+          <ID>arguments</ID>
+          <Default>/* arguments */</Default>
+        </Literal>
+        <Literal>
+          <ID>return-value</ID>
+          <Default>Task</Default>
+        </Literal>
+        <Literal>
+          <ID>access</ID>
+          <Default>public</Default>
+        </Literal>
+      </Declarations>
+			<Code Language="csharp">
+				<![CDATA[$access$ async $return-value$ $name$Async($arguments$)
+{
+	$selected$ $end$
+  // await ..
+}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
