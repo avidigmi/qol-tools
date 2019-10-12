@@ -1,1 +1,1 @@
-# qol-tools
+# QoL Tools for software engineers
