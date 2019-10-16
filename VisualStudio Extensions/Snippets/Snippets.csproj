@@ -49,6 +49,8 @@
     <Compile Include="SnippetsPackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QoL\post.snippet" />
+    <None Include="QoL\get.snippet" />
     <None Include="QoL\afunc.snippet" />
     <None Include="QoL\func.snippet" />
     <None Include="source.extension.vsixmanifest">
